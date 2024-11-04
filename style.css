@@ -593,6 +593,13 @@ footer {
     }
 }
 
+@media (max-width:1280px) {
+    #home {
+        position: absolute;
+        top: 48%;
+    }
+}
+
 @media (max-width: 1030px) {
     
     .logo img{
@@ -852,10 +859,10 @@ footer {
         font-size: 3.8rem;
     }
     .footer-navbar ul li a{
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
     .footer-copy p{
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -866,13 +873,13 @@ footer {
         top: 26%;
         left: 3%;
     }
-    
+
 }
 
 @media (max-width: 380px) {
     #home {
         position: absolute;
-        top: 43%;
+        top: 32%;
         left: 3%;
     }
     .treatment .sub1{
@@ -900,6 +907,15 @@ footer {
         border-radius: 90px 0 80px 0;   
         margin: 2rem;
     }
+    .footer-icon a i{
+        font-size: 3rem;
+    }
+    .footer-navbar ul li a{
+        font-size: 1.6rem;
+    }
+    .footer-copy p{
+        font-size: 1.9rem;
+    } 
 }
 
 @media (max-width: 325px) {
@@ -933,15 +949,15 @@ footer {
     }
     .contact-form input,
     .contact-form textarea {
-        width: 260px;
+        width: 220px;
     }
     .footer-icon a i{
-        font-size: 3.4rem;
+        font-size: 3rem;
     }
     .footer-navbar ul li a{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .footer-copy p{
-        font-size: 2.6rem;
+        font-size: 1.9rem;
     } 
 }
