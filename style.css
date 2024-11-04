@@ -596,7 +596,7 @@ footer {
 @media (max-width:1280px) {
     #home {
         position: absolute;
-        top: 48%;
+        top: 56%;
     }
 }
 
@@ -607,7 +607,7 @@ footer {
     }
     #home {
         position: absolute;
-        top: 70%;
+        top: 63%;
         left: 3%;
     }
     #home h1{
@@ -615,6 +615,9 @@ footer {
     }
     #home h2{
         font-size: 3.3rem;
+    }
+    .img-slider img{
+        height: 560px;
     }
     .about-img img{
         height: 550px;
@@ -627,7 +630,7 @@ footer {
 
     #home {
         position: absolute;
-        top: 26%;
+        top: 64%;
         left: 3%;
     }
     
@@ -637,7 +640,7 @@ footer {
 
     #home {
         position: absolute;
-        top: 30%;
+        top: 28%;
         left: 3%;
     }
     
@@ -664,7 +667,7 @@ footer {
     }
     #home {
         position: absolute;
-        top: 62%;
+        top: 36%;
         left: 3%;
     }
     #home h1{
@@ -720,15 +723,6 @@ footer {
         font-size: 3.7rem;
     }
 }
-
-@media (max-width: 432px) {
-    
-    #home {
-        position: absolute;
-        top: 46%;
-        left: 3%;
-    }
-}
     
 @media (max-width: 430px){
     .header{
@@ -771,16 +765,16 @@ footer {
     left: 3%;
     }
     #home h1{
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
     #home h2{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     #home .social-icons a{
-        font-size: 1.9rem;
-        width: 4.2rem;
-        height: 4.2rem;
-        margin: 0.9rem 0.4rem 0.9rem 0.4rem;
+        font-size: 1.4rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        margin: 1.2rem 0.9rem;
     }
     #home .btn{
         font-size: 0.9rem;
@@ -866,20 +860,37 @@ footer {
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 480px) {
 
     #home {
         position: absolute;
-        top: 26%;
+        top: 25%;
         left: 3%;
     }
-
+    #home h1{
+        font-size: 2.6rem;
+    }
+    #home h2{
+        font-size: 1.6rem;
+    }
+    #home .social-icons a{
+        font-size: 1.4rem;
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    #home .btn{
+        font-size: 0.9rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 220px;
+    }
 }
 
 @media (max-width: 380px) {
     #home {
         position: absolute;
-        top: 32%;
+        top: 34%;
         left: 3%;
     }
     .treatment .sub1{
@@ -918,10 +929,22 @@ footer {
     } 
 }
 
-@media (max-width: 325px) {
+@media (max-width: 360px) {
+    #home{
+        top: 32%;
+    }
+}
+
+@media (max-width: 344px) {
+    #home{
+        top: 27%;
+    }
+}
+
+@media (max-width: 320px) {
     #home {
         position: absolute;
-        top: 39%;
+        top: 40%;
         left: 3%;
     }
     .img-slider img{
