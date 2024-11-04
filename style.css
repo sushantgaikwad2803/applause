@@ -724,7 +724,7 @@ footer {
     }
 }
     
-@media (max-width: 430px){
+@media (max-width: 439px){
     .header{
         height: 10rem;
         width: 100%;
@@ -761,7 +761,7 @@ footer {
    }
    #home {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 3%;
     }
     #home h1{
@@ -861,7 +861,35 @@ footer {
 }
 
 @media (max-width: 480px) {
-
+    .header{
+        height: 10rem;
+        width: 100%;
+        z-index: 100;
+    }
+    .navbar ul{
+        position: absolute;
+        top: 40px;
+        width: 200px;
+        right: 38px;
+        flex-direction: column;
+        background-color: var(--main-color);
+        font-size: 2rem;
+        border-radius: 0 0 20px 20px;
+        overflow: hidden;
+    }
+    .navbar ul{
+        font-size: 1.6rem;
+        display: block;
+    }
+    .navbar ul li {
+        padding: 15px 0;
+    }
+    .logo img{
+        width: 13rem;
+    }
+   #menu-icon{
+    display: block;
+   }
     #home {
         position: absolute;
         top: 25%;
@@ -881,10 +909,64 @@ footer {
     #home .btn{
         font-size: 0.9rem;
     }
+    .row .sub1 .button .btn{
+        font-size: 1.5rem;
+    }
+    #service h1{
+        font-size: 3.5rem;
+    }
+    .treatment h2{
+        font-size: 2.2rem;
+    }
+    .treatment p{
+        font-size: 1.7rem;
+    }
+    #about{
+        border-radius: 90px 0 80px 0;
+        margin: 1.4rem;
+    }
+    #about h1{
+        font-size: 3.7rem;
+    }
+    #about h1::after{
+        width: 15rem;
+    }
+    #gallery{
+        border-radius: 90px 0 80px 0;
+        margin: 1.4rem;
+    }
+    #gallery h1{
+        font-size: 3.5rem;
+    }
+    #gallery h1::after{
+        width: 10rem;
+    }
+    #contact{
+        border-radius: 90px 0 80px 0;
+        margin: 1.4rem;
+    }
+    #contact h1{
+        font-size: 3.5rem;
+    }
+    #contact h1::after{
+        width: 16rem;
+    }
     .contact-form input,
     .contact-form textarea {
         width: 220px;
     }
+    #maps h4{
+        font-size: 2.5rem;
+    }
+    .footer-icon a i{
+        font-size: 3rem;
+    }
+    .footer-navbar ul li a{
+        font-size: 1.6rem;
+    }
+    .footer-copy p{
+        font-size: 1.9rem;
+    } 
 }
 
 @media (max-width: 380px) {
