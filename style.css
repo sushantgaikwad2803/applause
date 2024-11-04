@@ -581,7 +581,7 @@ footer {
     }
     #home {
         position: absolute;
-        top: 62%;
+        top: 56%;
     }
     .img-slider img{
         height: 650px;
@@ -607,7 +607,7 @@ footer {
     }
     #home {
         position: absolute;
-        top: 64%;
+        top: 60%;
         left: 3%;
     }
     #home h1{
@@ -921,6 +921,12 @@ footer {
     .treatment p{
         font-size: 1.7rem;
     }
+    .treatment .sub-img img{
+        width: 75%;
+    }
+    .treatment .sub1{
+        width: 75%;
+    }
     #about{
         border-radius: 90px 0 80px 0;
         margin: 1.4rem;
@@ -1014,6 +1020,12 @@ footer {
 @media (max-width: 360px) {
     #home{
         top: 32%;
+    }
+    .treatment .sub-img img{
+        width: 65%;
+    }
+    .treatment .sub1{
+        width: 65%;
     }
 }
 
