@@ -1,2 +1,2 @@
 # applause
-this is a skincare and slon website 
+this is a skincare and salon website 
